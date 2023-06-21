@@ -1,0 +1,33 @@
+@media only screen and (max-width: 720px) {
+   #sobre{
+        flex-direction: column;
+        text-align: center;
+   }
+   #sobre .apresentacao>*{
+        width: 100%;
+    }
+   #sobre .apresentacao>h1,
+   #sobre .apresentacao>{
+        text-align: center;
+    }
+    #contato{
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+    #educacao{
+        width: 100%;
+        border-left: none;
+    }
+    #educacao>.legenda {
+        width: 450px;
+        left: calc(47% - 225px);
+        text-align: center;
+    }
+        #educacao ul li.curso{
+        max-width: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+}
